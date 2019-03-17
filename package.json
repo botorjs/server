@@ -27,6 +27,22 @@
   },
   "homepage": "https://github.com/botorjs/server#readme",
   "dependencies": {
-    "@botorjs/event-bus": "0.0.1"
+    "@botorjs/boot": "0.0.1",
+    "@botorjs/event-bus": "0.0.1",
+    "macroable": "^2.0.1",
+    "debug": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/debug": "^4.1.2",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.10.5",
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.3",
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0",
+    "supertest": "^4.0.2",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333"
   }
 }
